@@ -1,0 +1,2 @@
+{{- $a := site.Data.author -}}
+<p class="by">โดย <a rel="author" href="{{ "/author/" | relURL }}">{{ $a.name }}</a> · อัปเดตล่าสุด <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ partial "thaidate.html" .Lastmod }}</time></p>

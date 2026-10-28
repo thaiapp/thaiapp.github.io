@@ -1,0 +1,23 @@
+{{- $c := slice (dict "n" "หน้าแรก" "u" site.Home.RelPermalink "p" site.Home.Permalink) -}}
+{{- if eq .Section "topics" -}}
+{{- range .Ancestors.Reverse -}}
+{{- if not .IsHome -}}
+{{- $c = $c | append (dict "n" (.Params.h1 | default .Title) "u" .RelPermalink "p" .Permalink) -}}
+{{- end -}}
+{{- end -}}
+{{- else -}}
+{{- with .Params.topic -}}
+{{- with site.GetPage (printf "/topics/%s" .) -}}
+{{- $c = $c | append (dict "n" (.Params.h1 | default .Title) "u" .RelPermalink "p" .Permalink) -}}
+{{- end -}}
+{{- end -}}
+{{- range .Ancestors.Reverse -}}
+{{- if not .IsHome -}}
+{{- $c = $c | append (dict "n" (.Params.h1 | default .Title) "u" .RelPermalink "p" .Permalink) -}}
+{{- end -}}
+{{- end -}}
+{{- end -}}
+{{- if not .IsHome -}}
+{{- $c = $c | append (dict "n" (.Params.h1 | default .Title) "u" .RelPermalink "p" .Permalink) -}}
+{{- end -}}
+{{- return $c -}}

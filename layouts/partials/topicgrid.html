@@ -1,0 +1,22 @@
+<div class="grid">
+{{- range site.Data.categories }}
+{{- $slug := .slug -}}
+{{- $label := .label -}}
+{{- $icon := .icon -}}
+{{- $short := .short -}}
+{{- $n := 0 -}}
+{{- range site.Pages -}}
+{{- if and .Params.tool (eq .Params.topic $slug) -}}
+{{- $n = add $n 1 -}}
+{{- end -}}
+{{- end -}}
+{{- with site.GetPage (printf "/topics/%s" $slug) }}
+<a class="card" href="{{ .RelPermalink }}">
+<span class="ic" aria-hidden="true">{{ $icon }}</span>
+<span class="ct">{{ $label }}</span>
+<span class="cs">{{ $short }}</span>
+<span class="cn">{{ $n }} เครื่องมือ</span>
+</a>
+{{- end }}
+{{- end }}
+</div>

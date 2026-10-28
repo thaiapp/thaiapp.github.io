@@ -1,0 +1,60 @@
+- slug: time
+  label: "เวลาและนาฬิกา"
+  icon: "⏰"
+  short: "นาฬิกาออนไลน์ เวลาทั่วโลก ตลาดหุ้น"
+  appCategory: "UtilitiesApplication"
+  sections: [time, time-now]
+- slug: emoji
+  label: "อิโมจิและสัญลักษณ์"
+  icon: "😀"
+  short: "คัดลอกอิโมจิ อีโมติคอน สัญลักษณ์"
+  appCategory: "UtilitiesApplication"
+  sections: [emoji, emoticon, symbol]
+- slug: text
+  label: "ข้อความและตัวอักษร"
+  icon: "🔤"
+  short: "ฟอนต์เท่ ตัวอักษรพิเศษ แปลงข้อความ"
+  appCategory: "UtilitiesApplication"
+  sections: [cool-text, instagram, converter, text-diff, copy, japanese]
+- slug: social
+  label: "โซเชียลมีเดีย"
+  icon: "💬"
+  short: "เครื่องมือ Facebook, X และ Instagram"
+  appCategory: "SocialNetworkingApplication"
+  sections: [facebook, facebook-symbols, twitter-symbols, pilipress]
+- slug: image
+  label: "รูปภาพ"
+  icon: "🖼️"
+  short: "ย่อ ครอป แปลงไฟล์ ทำรูปติดบัตร"
+  appCategory: "MultimediaApplication"
+  sections: [image, webp, photo, id-photo]
+- slug: pdf-file
+  label: "PDF และไฟล์"
+  icon: "📄"
+  short: "รวม แยก บีบอัด PDF และไฟล์ ZIP"
+  appCategory: "BusinessApplication"
+  sections: [pdf, file]
+- slug: media
+  label: "เสียงและวิดีโอ"
+  icon: "🎧"
+  short: "แปลงไฟล์เสียง ตัดต่อวิดีโอ อัดหน้าจอ"
+  appCategory: "MultimediaApplication"
+  sections: [audio, video, recorder, text-to-speech, vibrator]
+- slug: dev
+  label: "เครื่องมือนักพัฒนา"
+  icon: "💻"
+  short: "JSON, Regex, แฮช และตรวจสอบโค้ด"
+  appCategory: "DeveloperApplication"
+  sections: [json, formatter, minify, regex-tester, javascript-validator, php-syntax-check, mysql-syntax-check, email-html, hash]
+- slug: device
+  label: "ทดสอบและวัดค่า"
+  icon: "🛠️"
+  short: "ทดสอบคีย์บอร์ด เมาส์ จอ และเน็ต"
+  appCategory: "UtilitiesApplication"
+  sections: [test, screen, speed-test, my-ip, actual-size, ruler, protractor, transit-maps]
+- slug: random
+  label: "สุ่มและคำนวณ"
+  icon: "🎲"
+  short: "สุ่มเลข ทอยลูกเต๋า คิดเลข QR Code"
+  appCategory: "UtilitiesApplication"
+  sections: [random, calculator, counter, scoreboard, generator]

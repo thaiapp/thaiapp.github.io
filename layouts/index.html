@@ -1,0 +1,22 @@
+{{ define "main" }}
+<section class="hero">
+<h1>{{ .Params.h1 }}</h1>
+<p class="lead">{{ .Params.lead }}</p>
+<div class="sb" role="search">
+<label for="q" class="sr">ค้นหาเครื่องมือ</label>
+<input id="q" type="search" placeholder="ค้นหาเครื่องมือ เช่น PDF, QR, อิโมจิ..." autocomplete="off" enterkeyhint="search" data-src="{{ "search.json" | relURL }}">
+<ul id="sr" class="srl" hidden></ul>
+</div>
+{{ with .Params.popular }}
+<p class="pop"><span>ยอดนิยม:</span>
+{{- range . }}{{ with site.GetPage . }} <a href="{{ .RelPermalink }}">{{ .Params.h1 | default .Title }}</a>{{ end }}{{ end }}
+</p>
+{{ end }}
+</section>
+<section class="blk">
+<h2>หมวดหมู่เครื่องมือ</h2>
+{{ partial "topicgrid.html" . }}
+</section>
+<div class="prose">{{ .Content }}</div>
+{{ partial "authorbox.html" . }}
+{{ end }}

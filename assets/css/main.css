@@ -1,0 +1,88 @@
+@font-face{font-family:Inter;font-style:normal;font-weight:100 900;font-display:swap;src:url(/fonts/inter-latin-var.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+:root{--b:#1d4ed8;--bd:#1e40af;--bl:#eff6ff;--bb:#dbeafe;--t:#0f172a;--m:#475569;--l:#e2e8f0;--w:#fff;--r:14px}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--w);color:var(--t);font:400 16px/1.75 Inter,"Noto Sans Thai","Sukhumvit Set",Thonburi,"Leelawadee UI",Tahoma,system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:720px;margin:0 auto;padding:0 16px}
+a{color:var(--b);text-decoration:none}
+a:hover{text-decoration:underline}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--bb);outline-offset:2px}
+h1,h2,h3{line-height:1.35;margin:0 0 .5em;color:var(--t);font-weight:700}
+h1{font-size:1.75rem;margin-top:.25em}
+h2{font-size:1.25rem;margin-top:1.75em}
+h3{font-size:1.05rem;margin-top:1.4em}
+p,ul,ol{margin:0 0 1em}
+.skip{position:absolute;left:-999px;top:0;background:var(--b);color:var(--w);padding:8px 12px;z-index:30}
+.skip:focus{left:8px;top:8px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.hd{position:sticky;top:0;background:rgba(255,255,255,.96);border-bottom:1px solid var(--l);z-index:20}
+.hd-in{display:flex;align-items:center;justify-content:space-between;height:56px;position:relative}
+.logo{font-weight:800;font-size:1.25rem;color:var(--t);letter-spacing:-.02em}
+.logo b{color:var(--b)}
+.logo:hover{text-decoration:none}
+.mb{width:44px;height:44px;border:0;background:none;padding:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;cursor:pointer;margin-right:-10px}
+.mb span{display:block;width:20px;height:2px;background:var(--t);border-radius:2px;transition:transform .2s,opacity .2s}
+.mb[aria-expanded=true] span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.mb[aria-expanded=true] span:nth-child(2){opacity:0}
+.mb[aria-expanded=true] span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.nav{display:none;position:absolute;left:0;right:0;top:56px;background:var(--w);border-bottom:1px solid var(--l);padding:8px 16px 12px}
+.nav.open{display:block}
+.nav a{display:block;padding:12px 0;color:var(--t);font-weight:500;border-bottom:1px solid var(--bl)}
+.nav a:last-child{border-bottom:0}
+@media(min-width:640px){
+.mb{display:none}
+.nav,.nav.open{display:flex;position:static;border:0;padding:0;gap:20px;background:none}
+.nav a{padding:0;border:0;font-size:.95rem}
+}
+main{min-height:60vh;padding-bottom:32px}
+.hero{padding:40px 0 24px;text-align:center}
+.hero h1{font-size:1.9rem;margin-bottom:.4em}
+.lead{color:var(--m);font-size:1.05rem}
+.sb{position:relative;margin:24px 0 12px;text-align:left}
+.sb input{width:100%;height:56px;padding:0 20px;font:inherit;font-size:1.05rem;border:2px solid var(--bb);border-radius:var(--r);background:var(--bl);color:var(--t);-webkit-appearance:none;appearance:none}
+.sb input::placeholder{color:var(--m)}
+.sb input:focus{border-color:var(--b);background:var(--w);outline:0}
+.srl{position:absolute;left:0;right:0;top:62px;margin:0;padding:6px;list-style:none;background:var(--w);border:1px solid var(--l);border-radius:var(--r);box-shadow:0 12px 32px rgba(15,23,42,.12);z-index:10}
+.srl[hidden]{display:none}
+.srl a{display:block;padding:10px 12px;border-radius:10px;color:var(--t)}
+.srl a:hover,.srl a:focus{background:var(--bl);text-decoration:none}
+.srl .no{padding:10px 12px;color:var(--m)}
+.pop{font-size:.9rem;color:var(--m)}
+.pop a{display:inline-block;margin:2px 4px;padding:2px 12px;border-radius:99px;background:var(--bl);color:var(--bd)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.card{display:flex;flex-direction:column;gap:2px;padding:16px;border:1px solid var(--l);border-radius:var(--r);color:var(--t);background:var(--w);transition:border-color .15s,box-shadow .15s}
+.card:hover{border-color:var(--b);box-shadow:0 4px 16px rgba(29,78,216,.1);text-decoration:none}
+.ic{font-size:1.5rem;line-height:1.2}
+.ct{font-weight:700}
+.cs{font-size:.85rem;color:var(--m);line-height:1.5}
+.cn{font-size:.8rem;color:var(--b);font-weight:600;margin-top:4px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0}
+.chips a{display:block;padding:6px 14px;border:1px solid var(--l);border-radius:99px;color:var(--t);font-size:.92rem;background:var(--w)}
+.chips a:hover{border-color:var(--b);color:var(--b);text-decoration:none}
+.chips .more{background:var(--b);color:var(--w);border-color:var(--b)}
+.chips .more:hover{color:var(--w);background:var(--bd)}
+.bc{font-size:.85rem;color:var(--m);padding-top:16px;overflow-x:auto;white-space:nowrap}
+.bc ol{display:flex;gap:0;list-style:none;margin:0;padding:0}
+.bc li+li::before{content:"›";margin:0 8px;color:var(--m)}
+.bc a{color:var(--m)}
+.tool{margin:20px 0;min-height:1px}
+.tool:empty{display:none}
+.prose{margin-top:24px}
+.prose h2{border-top:1px solid var(--l);padding-top:1.1em}
+.prose li{margin-bottom:.35em}
+.by{font-size:.85rem;color:var(--m);margin-top:24px}
+.blk{margin-top:28px}
+.ab{display:flex;gap:14px;align-items:flex-start;margin-top:32px;padding:18px;border:1px solid var(--bb);background:var(--bl);border-radius:var(--r)}
+.ab p{margin:0 0 .3em;font-size:.92rem}
+.av{flex:none;width:48px;height:48px;border-radius:50%;background:var(--b);color:var(--w);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1.2rem}
+.ab-n{font-weight:700;font-size:1rem!important}
+.ab-r{color:var(--bd)}
+.ft{border-top:1px solid var(--l);background:var(--bl);padding:24px 0;font-size:.9rem}
+.ft-nav{display:flex;flex-wrap:wrap;gap:6px 18px;margin-bottom:12px}
+.ft-nav a{color:var(--bd)}
+.ft-c{margin:0;color:var(--m)}
+table{width:100%;border-collapse:collapse;margin:0 0 1em;display:block;overflow-x:auto}
+th,td{border:1px solid var(--l);padding:8px 10px;text-align:left}
+th{background:var(--bl)}
+@media(min-width:640px){h1{font-size:2rem}.hero h1{font-size:2.3rem}.hero{padding:56px 0 32px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}

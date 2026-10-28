@@ -1,0 +1,31 @@
+{{ define "main" }}
+<article>
+{{ partial "breadcrumb.html" . }}
+<h1>{{ .Params.h1 | default .Title }}</h1>
+{{ with .Params.lead }}<p class="lead">{{ . }}</p>{{ end }}
+{{ with .Params.sections }}
+{{ range . }}
+{{ with site.GetPage (printf "/%s" .) }}
+<section class="blk">
+<h2><a href="{{ .RelPermalink }}">{{ .Params.h1 | default .Title }}</a></h2>
+{{ if .IsSection }}
+{{ $kids := .RegularPagesRecursive.ByWeight }}
+{{ $total := len $kids }}
+<ul class="chips">
+{{ range first 8 $kids }}
+<li><a href="{{ .RelPermalink }}">{{ .Params.h1 | default .Title }}</a></li>
+{{ end }}
+{{ if gt $total 8 }}<li><a class="more" href="{{ .RelPermalink }}">ดูทั้งหมด {{ $total }} รายการ</a></li>{{ end }}
+</ul>
+{{ end }}
+</section>
+{{ end }}
+{{ end }}
+{{ else }}
+{{ partial "topicgrid.html" . }}
+{{ end }}
+{{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+{{ partial "byline.html" . }}
+{{ partial "authorbox.html" . }}
+</article>
+{{ end }}

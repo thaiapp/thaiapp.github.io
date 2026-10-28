@@ -1,0 +1,37 @@
+{{- $title := .Title -}}
+{{- if eq .Kind "404" }}{{ $title = "ไม่พบหน้าที่ต้องการ | Prasslina" }}{{ end -}}
+{{- $desc := .Description | default site.Params.description -}}
+{{- $img := absURL site.Params.ogImage -}}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $desc }}">
+<meta name="robots" content="{{ if or .Params.noindex (eq .Kind "404") }}noindex,follow{{ else }}index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1{{ end }}">
+<meta name="theme-color" content="{{ site.Params.themeColor }}">
+<link rel="canonical" href="{{ .Permalink }}">
+<link rel="alternate" hreflang="th" href="{{ .Permalink }}">
+<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
+<link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | relURL }}">
+<meta property="og:site_name" content="Prasslina">
+<meta property="og:locale" content="th_TH">
+<meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="{{ $img }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ $desc }}">
+<meta name="twitter:image" content="{{ $img }}">
+{{- if and (not .IsHome) (not (eq .Kind "404")) }}
+<meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" }}">
+{{- end }}
+<link rel="preload" href="{{ "fonts/inter-latin-var.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+{{- $css := resources.Get "css/main.css" | minify }}
+<style>{{ $css.Content | safeCSS }}</style>
+{{- if ne .Kind "404" }}
+{{ partial "schema.html" . }}
+{{- end }}

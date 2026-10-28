@@ -1,0 +1,71 @@
+baseURL = "https://thaiapp.github.io/"
+languageCode = "th"
+defaultContentLanguage = "th"
+title = "Prasslina"
+enableRobotsTXT = true
+enableEmoji = false
+disableKinds = ["taxonomy", "term", "RSS"]
+pluralizeListTitles = false
+timeZone = "Asia/Bangkok"
+
+[languages.th]
+languageName = "ไทย"
+languageCode = "th"
+weight = 1
+
+[taxonomies]
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+noClasses = false
+
+[minify]
+minifyOutput = true
+
+[minify.tdewolff.html]
+keepWhitespace = false
+
+[frontmatter]
+lastmod = ["lastmod", "date"]
+
+[outputFormats.searchindex]
+mediaType = "application/json"
+baseName = "search"
+isPlainText = true
+notAlternative = true
+
+[outputs]
+home = ["HTML", "searchindex"]
+section = ["HTML"]
+page = ["HTML"]
+
+[params]
+description = "Prasslina รวมเครื่องมือออนไลน์ฟรีภาษาไทย ใช้งานได้ทันทีบนมือถือและคอมพิวเตอร์ ไม่ต้องติดตั้งโปรแกรม ไม่ต้องสมัครสมาชิก"
+themeColor = "#1d4ed8"
+ogImage = "/og-image.png"
+
+[sitemap]
+changefreq = "monthly"
+priority = 0.5
+
+[[menus.main]]
+name = "หมวดหมู่"
+url = "/topics/"
+weight = 1
+
+[[menus.main]]
+name = "เกี่ยวกับ"
+url = "/about/"
+weight = 2
+
+[[menus.main]]
+name = "ผู้เขียน"
+url = "/author/"
+weight = 3
+
+[[menus.main]]
+name = "ติดต่อ"
+url = "/contact/"
+weight = 4

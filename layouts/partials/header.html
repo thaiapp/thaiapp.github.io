@@ -1,0 +1,11 @@
+<header class="hd">
+<div class="wrap hd-in">
+<a class="logo" href="{{ "/" | relURL }}" aria-label="Prasslina หน้าแรก">Prass<b>lina</b></a>
+<button id="mb" class="mb" type="button" aria-label="เมนู" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+<nav id="nav" class="nav" aria-label="เมนูหลัก">
+{{- range site.Menus.main }}
+<a href="{{ .URL | relURL }}">{{ .Name }}</a>
+{{- end }}
+</nav>
+</div>
+</header>

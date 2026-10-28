@@ -1,0 +1,11 @@
+{{ define "main" }}
+<article>
+{{ partial "breadcrumb.html" . }}
+<h1>{{ .Params.h1 | default .Title }}</h1>
+{{ with .Params.lead }}<p class="lead">{{ . }}</p>{{ end }}
+{{ with .Content }}<div class="tool" id="tool">{{ . }}</div>{{ end }}
+{{ partial "children.html" . }}
+{{ partial "byline.html" . }}
+{{ partial "authorbox.html" . }}
+</article>
+{{ end }}

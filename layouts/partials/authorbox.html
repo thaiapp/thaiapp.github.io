@@ -1,0 +1,9 @@
+{{- $a := site.Data.author -}}
+<aside class="ab" aria-label="เกี่ยวกับผู้เขียน">
+<div class="av" aria-hidden="true">{{ substr $a.nameEn 0 1 }}</div>
+<div>
+<p class="ab-n"><a href="{{ "/author/" | relURL }}">{{ $a.name }}</a></p>
+<p class="ab-r">{{ $a.jobTitle }}</p>
+<p>{{ $a.shortBio }}</p>
+</div>
+</aside>

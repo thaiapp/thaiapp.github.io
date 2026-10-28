@@ -1,0 +1,15 @@
+{{ define "main" }}
+<section class="hero">
+<h1>ไม่พบหน้าที่ต้องการ</h1>
+<p class="lead">หน้านี้อาจถูกย้ายหรือลบแล้ว ลองค้นหาเครื่องมือที่ต้องการด้านล่าง</p>
+<div class="sb" role="search">
+<label for="q" class="sr">ค้นหาเครื่องมือ</label>
+<input id="q" type="search" placeholder="ค้นหาเครื่องมือ..." autocomplete="off" enterkeyhint="search" data-src="{{ "search.json" | relURL }}">
+<ul id="sr" class="srl" hidden></ul>
+</div>
+</section>
+<section class="blk">
+<h2>หมวดหมู่เครื่องมือ</h2>
+{{ partial "topicgrid.html" . }}
+</section>
+{{ end }}

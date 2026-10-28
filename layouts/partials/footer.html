@@ -1,0 +1,50 @@
+<footer class="ft">
+<div class="wrap">
+<nav class="ft-nav" aria-label="ลิงก์ท้ายเว็บ">
+<a href="{{ "/topics/" | relURL }}">หมวดหมู่</a>
+<a href="{{ "/about/" | relURL }}">เกี่ยวกับเรา</a>
+<a href="{{ "/author/" | relURL }}">ผู้เขียน</a>
+<a href="{{ "/contact/" | relURL }}">ติดต่อเรา</a>
+<a href="{{ "/privacy/" | relURL }}">นโยบายความเป็นส่วนตัว</a>
+<a href="{{ "/terms/" | relURL }}">ข้อกำหนดการใช้งาน</a>
+</nav>
+<p class="ft-c">© {{ now.Year }} Prasslina เครื่องมือออนไลน์ฟรีภาษาไทย</p>
+</div>
+</footer>
+<script>
+(function(){
+var b=document.getElementById("mb"),n=document.getElementById("nav");
+b.addEventListener("click",function(){var o=n.classList.toggle("open");b.setAttribute("aria-expanded",o?"true":"false")});
+var q=document.getElementById("q");
+if(!q)return;
+var r=document.getElementById("sr"),d=null,busy=false;
+function load(){
+if(d||busy)return;busy=true;
+fetch(q.getAttribute("data-src")).then(function(x){return x.json()}).then(function(j){d=j;busy=false;go()}).catch(function(){busy=false})
+}
+function go(){
+var v=q.value.trim().toLowerCase();
+r.textContent="";
+if(!v){r.hidden=true;return}
+if(!d){load();return}
+var k=0,i,li,a;
+for(i=0;i<d.length&&k<8;i++){
+if(d[i].t.toLowerCase().indexOf(v)>-1||d[i].u.indexOf(v)>-1){
+li=document.createElement("li");a=document.createElement("a");
+a.href=d[i].u;a.textContent=d[i].t;li.appendChild(a);r.appendChild(li);k++
+}
+}
+if(!k){li=document.createElement("li");li.className="no";li.textContent="ไม่พบเครื่องมือที่ค้นหา ลองใช้คำอื่น";r.appendChild(li)}
+r.hidden=false
+}
+q.addEventListener("focus",load);
+q.addEventListener("input",go);
+q.addEventListener("keydown",function(e){
+if(e.key==="Enter"){var f=r.querySelector("a");if(f){location.href=f.href}}
+if(e.key==="Escape"){r.hidden=true}
+});
+document.addEventListener("click",function(e){if(!e.target.closest(".sb"))r.hidden=true});
+var p=new URLSearchParams(location.search).get("q");
+if(p){q.value=p;load()}
+})();
+</script>

@@ -1,0 +1,12 @@
+{{- if .IsSection -}}
+{{- with .Pages.ByWeight }}
+<section class="blk">
+<h2>เครื่องมือในหมวดนี้</h2>
+<ul class="chips">
+{{- range . }}
+<li><a href="{{ .RelPermalink }}">{{ .Params.h1 | default .Title }}</a></li>
+{{- end }}
+</ul>
+</section>
+{{- end -}}
+{{- end -}}

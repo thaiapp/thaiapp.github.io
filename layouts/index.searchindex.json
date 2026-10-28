@@ -1,0 +1,7 @@
+{{- $a := slice -}}
+{{- range site.Pages -}}
+{{- if or .Params.tool .Params.hub -}}
+{{- $a = $a | append (dict "t" (.Params.h1 | default .Title) "u" .RelPermalink) -}}
+{{- end -}}
+{{- end -}}
+{{- $a | jsonify -}}
