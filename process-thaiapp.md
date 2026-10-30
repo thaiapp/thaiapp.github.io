@@ -6,8 +6,8 @@ https://thaiapp.github.io/japanese/kana/
 https://thaiapp.github.io/scoreboard/
 https://thaiapp.github.io/time/ 
 https://thaiapp.github.io/time/flip/ 
-https://thaiapp.github.io/time/analog/ -- belum submit
-https://thaiapp.github.io/time/standby/
+https://thaiapp.github.io/time/analog/ 
+https://thaiapp.github.io/time/standby/ -- belum submit
 https://thaiapp.github.io/time/teaching/
 https://thaiapp.github.io/time/dst/
 
@@ -21,13 +21,27 @@ https://thaiapp.github.io/protractor/
 https://thaiapp.github.io/speed-test/
 
 29 Oktober 2026
-http://localhost:1313/speed-test/ping/
-http://localhost:1313/counter/
-http://localhost:1313/screen/
-http://localhost:1313/screen/black/
-http://localhost:1313/screen/white/
-http://localhost:1313/screen/mirror/
-http://localhost:1313/screen/flashing-light/
-http://localhost:1313/pilipress/float-fb/
-http://localhost:1313/copy/
-http://localhost:1313/converter/whitespace/
+https://thaiapp.github.io/speed-test/ping/
+https://thaiapp.github.io/counter/
+https://thaiapp.github.io/screen/
+https://thaiapp.github.io/screen/black/
+https://thaiapp.github.io/screen/white/
+https://thaiapp.github.io/screen/mirror/
+https://thaiapp.github.io/screen/flashing-light/
+https://thaiapp.github.io/pilipress/float-fb/
+https://thaiapp.github.io/copy/
+https://thaiapp.github.io/converter/whitespace/
+
+30 Oktober 2026
+http://localhost:1313/converter/english-numbers/
+http://localhost:1313/random/dice/
+http://localhost:1313/random/number/
+http://localhost:1313/random/password/
+http://localhost:1313/random/team/
+http://localhost:1313/vibrator/
+http://localhost:1313/cool-text/
+http://localhost:1313/cool-text/strikethrough-text/
+http://localhost:1313/cool-text/zalgo-text/
+http://localhost:1313/cool-text/invisible-ink/
+
+31 Oktober 2026
