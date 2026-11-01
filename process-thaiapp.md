@@ -15,8 +15,8 @@ https://thaiapp.github.io/time/dst/
 https://thaiapp.github.io/calculator/percent/ 
 https://thaiapp.github.io/instagram/fonts/
 https://thaiapp.github.io/random/coin/
-https://thaiapp.github.io/random/list/ -- belum submit
-https://thaiapp.github.io/random/wheel/
+https://thaiapp.github.io/random/list/ 
+https://thaiapp.github.io/random/wheel/ -- belum submit
 https://thaiapp.github.io/protractor/
 https://thaiapp.github.io/speed-test/
 
@@ -45,15 +45,18 @@ https://thaiapp.github.io/cool-text/zalgo-text/
 https://thaiapp.github.io/cool-text/invisible-ink/
 
 31 Oktober 2026
-http://localhost:1313/cool-text/small-caps/
-http://localhost:1313/cool-text/bubble/
-http://localhost:1313/cool-text/square/
-http://localhost:1313/cool-text/bold-italic/
-http://localhost:1313/cool-text/old-english/
-http://localhost:1313/cool-text/cursive/
-http://localhost:1313/cool-text/upside-down/
-http://localhost:1313/cool-text/serif/
-http://localhost:1313/cool-text/superscript/
+https://thaiapp.github.io/cool-text/small-caps/
+https://thaiapp.github.io/cool-text/bubble/
+https://thaiapp.github.io/cool-text/square/
+https://thaiapp.github.io/cool-text/bold-italic/
+https://thaiapp.github.io/cool-text/old-english/
+https://thaiapp.github.io/cool-text/cursive/
+https://thaiapp.github.io/cool-text/upside-down/
+https://thaiapp.github.io/cool-text/serif/
+https://thaiapp.github.io/cool-text/superscript/
 
 1 November 2026
+http://localhost:1313/emoji/download/
+http://localhost:1313/emoji/in-blog/
+http://localhost:1313/emoji/google/
 
