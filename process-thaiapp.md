@@ -56,7 +56,14 @@ https://thaiapp.github.io/cool-text/serif/
 https://thaiapp.github.io/cool-text/superscript/
 
 1 November 2026
-http://localhost:1313/emoji/download/
-http://localhost:1313/emoji/in-blog/
-http://localhost:1313/emoji/google/
+https://thaiapp.github.io/emoji/download/
+https://thaiapp.github.io/emoji/in-blog/
+https://thaiapp.github.io/emoji/google/
 
+2 November 2026
+http://localhost:1313/emoji/list/
+http://localhost:1313/emoji/cheat-sheet/
+http://localhost:1313/emoticon/
+http://localhost:1313/emoticon/lenny-face/
+http://localhost:1313/emoticon/shrug/
+http://localhost:1313/javascript-validator/
