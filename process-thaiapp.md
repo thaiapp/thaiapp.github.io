@@ -16,9 +16,9 @@ https://thaiapp.github.io/calculator/percent/
 https://thaiapp.github.io/instagram/fonts/
 https://thaiapp.github.io/random/coin/
 https://thaiapp.github.io/random/list/ 
-https://thaiapp.github.io/random/wheel/ -- belum submit
+https://thaiapp.github.io/random/wheel/ 
 https://thaiapp.github.io/protractor/
-https://thaiapp.github.io/speed-test/
+https://thaiapp.github.io/speed-test/ -- belum submit
 
 29 Oktober 2026
 https://thaiapp.github.io/speed-test/ping/
@@ -61,9 +61,20 @@ https://thaiapp.github.io/emoji/in-blog/
 https://thaiapp.github.io/emoji/google/
 
 2 November 2026
-http://localhost:1313/emoji/list/
-http://localhost:1313/emoji/cheat-sheet/
-http://localhost:1313/emoticon/
-http://localhost:1313/emoticon/lenny-face/
-http://localhost:1313/emoticon/shrug/
-http://localhost:1313/javascript-validator/
+https://thaiapp.github.io/emoji/list/
+https://thaiapp.github.io/emoji/cheat-sheet/
+https://thaiapp.github.io/emoticon/
+https://thaiapp.github.io/emoticon/lenny-face/
+https://thaiapp.github.io/emoticon/shrug/
+https://thaiapp.github.io/javascript-validator/
+
+3 November 2026
+http://localhost:1313/text-to-speech/
+http://localhost:1313/twitter-symbols/
+http://localhost:1313/facebook/text-link/
+http://localhost:1313/facebook/friends-list/
+http://localhost:1313/facebook/favorite-friends/
+http://localhost:1313/facebook/id/
+http://localhost:1313/file/
+http://localhost:1313/file/zip/
+http://localhost:1313/file/unzip/
