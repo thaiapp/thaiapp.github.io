@@ -18,11 +18,11 @@ https://thaiapp.github.io/random/coin/
 https://thaiapp.github.io/random/list/ 
 https://thaiapp.github.io/random/wheel/ 
 https://thaiapp.github.io/protractor/
-https://thaiapp.github.io/speed-test/ -- belum submit
+https://thaiapp.github.io/speed-test/ 
 
 29 Oktober 2026
 https://thaiapp.github.io/speed-test/ping/
-https://thaiapp.github.io/counter/
+https://thaiapp.github.io/counter/ -- belum submit
 https://thaiapp.github.io/screen/
 https://thaiapp.github.io/screen/black/
 https://thaiapp.github.io/screen/white/
@@ -69,12 +69,23 @@ https://thaiapp.github.io/emoticon/shrug/
 https://thaiapp.github.io/javascript-validator/
 
 3 November 2026
-http://localhost:1313/text-to-speech/
-http://localhost:1313/twitter-symbols/
-http://localhost:1313/facebook/text-link/
-http://localhost:1313/facebook/friends-list/
-http://localhost:1313/facebook/favorite-friends/
-http://localhost:1313/facebook/id/
-http://localhost:1313/file/
-http://localhost:1313/file/zip/
-http://localhost:1313/file/unzip/
+https://thaiapp.github.io/text-to-speech/
+https://thaiapp.github.io/twitter-symbols/
+https://thaiapp.github.io/facebook/text-link/
+https://thaiapp.github.io/facebook/friends-list/
+https://thaiapp.github.io/facebook/favorite-friends/
+https://thaiapp.github.io/facebook/id/
+https://thaiapp.github.io/file/
+https://thaiapp.github.io/file/zip/
+https://thaiapp.github.io/file/unzip/
+
+4 November 2026
+http://localhost:1313/file/rar/
+http://localhost:1313/file/rename/
+http://localhost:1313/file/md5/
+http://localhost:1313/file/sha/
+http://localhost:1313/file/encrypt/
+http://localhost:1313/hash/
+http://localhost:1313/hash/md5/
+
+5 November 2026
