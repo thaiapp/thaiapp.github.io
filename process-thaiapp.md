@@ -80,12 +80,19 @@ https://thaiapp.github.io/file/zip/
 https://thaiapp.github.io/file/unzip/
 
 4 November 2026
-http://localhost:1313/file/rar/
-http://localhost:1313/file/rename/
-http://localhost:1313/file/md5/
-http://localhost:1313/file/sha/
-http://localhost:1313/file/encrypt/
-http://localhost:1313/hash/
-http://localhost:1313/hash/md5/
+https://thaiapp.github.io/file/rar/
+https://thaiapp.github.io/file/rename/
+https://thaiapp.github.io/file/md5/
+https://thaiapp.github.io/file/sha/
+https://thaiapp.github.io/file/encrypt/
+https://thaiapp.github.io/hash/
+https://thaiapp.github.io/hash/md5/
 
 5 November 2026
+http://localhost:1313/hash/sha1/
+http://localhost:1313/hash/sha256/
+http://localhost:1313/hash/sha512/
+http://localhost:1313/hash/crc32/
+http://localhost:1313/hash/password/bcrypt/
+
+6 November 2026
