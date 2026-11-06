@@ -22,8 +22,8 @@ https://thaiapp.github.io/speed-test/
 
 29 Oktober 2026
 https://thaiapp.github.io/speed-test/ping/
-https://thaiapp.github.io/counter/ -- belum submit
-https://thaiapp.github.io/screen/
+https://thaiapp.github.io/counter/ 
+https://thaiapp.github.io/screen/ -- belum submit
 https://thaiapp.github.io/screen/black/
 https://thaiapp.github.io/screen/white/
 https://thaiapp.github.io/screen/mirror/
@@ -89,10 +89,17 @@ https://thaiapp.github.io/hash/
 https://thaiapp.github.io/hash/md5/
 
 5 November 2026
-http://localhost:1313/hash/sha1/
-http://localhost:1313/hash/sha256/
-http://localhost:1313/hash/sha512/
-http://localhost:1313/hash/crc32/
-http://localhost:1313/hash/password/bcrypt/
+https://thaiapp.github.io/hash/sha1/
+https://thaiapp.github.io/hash/sha256/
+https://thaiapp.github.io/hash/sha512/
+https://thaiapp.github.io/hash/crc32/
+https://thaiapp.github.io/hash/password/bcrypt/
 
 6 November 2026
+http://localhost:1313/hash/password/argon2/
+http://localhost:1313/pdf/
+http://localhost:1313/pdf/merge/
+http://localhost:1313/pdf/split/
+http://localhost:1313/pdf/compress/
+
+7 November 2026
