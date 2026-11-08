@@ -25,8 +25,8 @@ https://thaiapp.github.io/speed-test/ping/
 https://thaiapp.github.io/counter/ 
 https://thaiapp.github.io/screen/ 
 https://thaiapp.github.io/screen/black/
-https://thaiapp.github.io/screen/white/ -- belum submit
-https://thaiapp.github.io/screen/mirror/
+https://thaiapp.github.io/screen/white/ 
+https://thaiapp.github.io/screen/mirror/ -- belum submit
 https://thaiapp.github.io/screen/flashing-light/
 https://thaiapp.github.io/pilipress/float-fb/
 https://thaiapp.github.io/copy/
@@ -103,10 +103,17 @@ https://thaiapp.github.io/pdf/split/
 https://thaiapp.github.io/pdf/compress/
 
 7 November 2026
-http://localhost:1313/pdf/to-jpg/
-http://localhost:1313/pdf/from-jpg/
-http://localhost:1313/pdf/organize/
-http://localhost:1313/pdf/rotate/
-http://localhost:1313/pdf/unlock/
+https://thaiapp.github.io/pdf/to-jpg/
+https://thaiapp.github.io/pdf/from-jpg/
+https://thaiapp.github.io/pdf/organize/
+https://thaiapp.github.io/pdf/rotate/
+https://thaiapp.github.io/pdf/unlock/
 
 8 November 2026
+http://localhost:1313/pdf/page-numbers/
+http://localhost:1313/pdf/watermark/
+http://localhost:1313/pdf/deskew/
+http://localhost:1313/pdf/grayscale/
+
+9 November 2026
+
