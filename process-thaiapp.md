@@ -26,14 +26,14 @@ https://thaiapp.github.io/counter/
 https://thaiapp.github.io/screen/ 
 https://thaiapp.github.io/screen/black/
 https://thaiapp.github.io/screen/white/ 
-https://thaiapp.github.io/screen/mirror/ -- belum submit
+https://thaiapp.github.io/screen/mirror/ 
 https://thaiapp.github.io/screen/flashing-light/
 https://thaiapp.github.io/pilipress/float-fb/
 https://thaiapp.github.io/copy/
 https://thaiapp.github.io/converter/whitespace/
 
 30 Oktober 2026
-https://thaiapp.github.io/converter/english-numbers/
+https://thaiapp.github.io/converter/english-numbers/ -- belum submit
 https://thaiapp.github.io/random/dice/
 https://thaiapp.github.io/random/number/
 https://thaiapp.github.io/random/password/
@@ -110,10 +110,17 @@ https://thaiapp.github.io/pdf/rotate/
 https://thaiapp.github.io/pdf/unlock/
 
 8 November 2026
-http://localhost:1313/pdf/page-numbers/
-http://localhost:1313/pdf/watermark/
-http://localhost:1313/pdf/deskew/
-http://localhost:1313/pdf/grayscale/
+https://thaiapp.github.io/pdf/page-numbers/
+https://thaiapp.github.io/pdf/watermark/
+https://thaiapp.github.io/pdf/deskew/
+https://thaiapp.github.io/pdf/grayscale/
 
 9 November 2026
+http://localhost:1313/pdf/pages-per-sheet/
+http://localhost:1313/pdf/page-size/
+http://localhost:1313/pdf/id-card/
+http://localhost:1313/photo/collage/
+http://localhost:1313/id-photo/
+
+10 November 2026
 
