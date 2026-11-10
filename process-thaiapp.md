@@ -33,11 +33,11 @@ https://thaiapp.github.io/copy/
 https://thaiapp.github.io/converter/whitespace/
 
 30 Oktober 2026
-https://thaiapp.github.io/converter/english-numbers/ -- belum submit
+https://thaiapp.github.io/converter/english-numbers/ 
 https://thaiapp.github.io/random/dice/
 https://thaiapp.github.io/random/number/
 https://thaiapp.github.io/random/password/
-https://thaiapp.github.io/random/team/
+https://thaiapp.github.io/random/team/ -- belum submit
 https://thaiapp.github.io/vibrator/
 https://thaiapp.github.io/cool-text/
 https://thaiapp.github.io/cool-text/strikethrough-text/
@@ -116,11 +116,17 @@ https://thaiapp.github.io/pdf/deskew/
 https://thaiapp.github.io/pdf/grayscale/
 
 9 November 2026
-http://localhost:1313/pdf/pages-per-sheet/
-http://localhost:1313/pdf/page-size/
-http://localhost:1313/pdf/id-card/
-http://localhost:1313/photo/collage/
-http://localhost:1313/id-photo/
+https://thaiapp.github.io/pdf/pages-per-sheet/
+https://thaiapp.github.io/pdf/page-size/
+https://thaiapp.github.io/pdf/id-card/
+https://thaiapp.github.io/photo/collage/
+https://thaiapp.github.io/id-photo/
 
 10 November 2026
+http://localhost:1313/id-photo/passport/
+http://localhost:1313/id-photo/remove-background/
+http://localhost:1313/id-photo/print/
+http://localhost:1313/image/
+
+11 November 2026
 
