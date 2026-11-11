@@ -37,10 +37,10 @@ https://thaiapp.github.io/converter/english-numbers/
 https://thaiapp.github.io/random/dice/
 https://thaiapp.github.io/random/number/
 https://thaiapp.github.io/random/password/
-https://thaiapp.github.io/random/team/ -- belum submit
+https://thaiapp.github.io/random/team/ 
 https://thaiapp.github.io/vibrator/
 https://thaiapp.github.io/cool-text/
-https://thaiapp.github.io/cool-text/strikethrough-text/
+https://thaiapp.github.io/cool-text/strikethrough-text/ -- belum submit
 https://thaiapp.github.io/cool-text/zalgo-text/
 https://thaiapp.github.io/cool-text/invisible-ink/
 
@@ -123,10 +123,17 @@ https://thaiapp.github.io/photo/collage/
 https://thaiapp.github.io/id-photo/
 
 10 November 2026
-http://localhost:1313/id-photo/passport/
-http://localhost:1313/id-photo/remove-background/
-http://localhost:1313/id-photo/print/
-http://localhost:1313/image/
+https://thaiapp.github.io/id-photo/passport/
+https://thaiapp.github.io/id-photo/remove-background/
+https://thaiapp.github.io/id-photo/print/
+https://thaiapp.github.io/image/
 
 11 November 2026
+http://localhost:1313/image/crop/
+http://localhost:1313/image/crop-circle/
+http://localhost:1313/image/rotate/
+http://localhost:1313/image/straighten/
+http://localhost:1313/image/flip/
+
+12 November 2026
 
