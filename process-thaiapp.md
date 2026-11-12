@@ -40,12 +40,12 @@ https://thaiapp.github.io/random/password/
 https://thaiapp.github.io/random/team/ 
 https://thaiapp.github.io/vibrator/
 https://thaiapp.github.io/cool-text/
-https://thaiapp.github.io/cool-text/strikethrough-text/ -- belum submit
+https://thaiapp.github.io/cool-text/strikethrough-text/ 
 https://thaiapp.github.io/cool-text/zalgo-text/
 https://thaiapp.github.io/cool-text/invisible-ink/
 
 31 Oktober 2026
-https://thaiapp.github.io/cool-text/small-caps/
+https://thaiapp.github.io/cool-text/small-caps/ -- belum submit
 https://thaiapp.github.io/cool-text/bubble/
 https://thaiapp.github.io/cool-text/square/
 https://thaiapp.github.io/cool-text/bold-italic/
@@ -129,11 +129,18 @@ https://thaiapp.github.io/id-photo/print/
 https://thaiapp.github.io/image/
 
 11 November 2026
-http://localhost:1313/image/crop/
-http://localhost:1313/image/crop-circle/
-http://localhost:1313/image/rotate/
-http://localhost:1313/image/straighten/
-http://localhost:1313/image/flip/
+https://thaiapp.github.io/image/crop/
+https://thaiapp.github.io/image/crop-circle/
+https://thaiapp.github.io/image/rotate/
+https://thaiapp.github.io/image/straighten/
+https://thaiapp.github.io/image/flip/
 
 12 November 2026
+http://localhost:1313/image/resize/
+http://localhost:1313/image/compress/
+http://localhost:1313/image/heic/
+http://localhost:1313/image/rename/
+http://localhost:1313/image/blur/
+
+13 November 2026
 
