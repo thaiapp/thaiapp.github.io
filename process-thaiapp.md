@@ -57,14 +57,14 @@ https://thaiapp.github.io/cool-text/superscript/
 
 1 November 2026
 https://thaiapp.github.io/emoji/download/
-https://thaiapp.github.io/emoji/in-blog/ -- belum submit
+https://thaiapp.github.io/emoji/in-blog/ 
 https://thaiapp.github.io/emoji/google/
 
 2 November 2026
 https://thaiapp.github.io/emoji/list/
 https://thaiapp.github.io/emoji/cheat-sheet/
 https://thaiapp.github.io/emoticon/
-https://thaiapp.github.io/emoticon/lenny-face/
+https://thaiapp.github.io/emoticon/lenny-face/ -- belum submit
 https://thaiapp.github.io/emoticon/shrug/
 https://thaiapp.github.io/javascript-validator/
 
@@ -143,16 +143,20 @@ https://thaiapp.github.io/image/rename/
 https://thaiapp.github.io/image/blur/
 
 13 November 2026
-http://localhost:1313/image/pixelate/
-http://localhost:1313/image/watermark/
-http://localhost:1313/image/add-date/
-http://localhost:1313/image/split/
+https://thaiapp.github.io/image/pixelate/
+https://thaiapp.github.io/image/watermark/
+https://thaiapp.github.io/image/add-date/
+https://thaiapp.github.io/image/split/
 
 14 November 2026
-http://localhost:1313/image/exif/
-http://localhost:1313/image/exif-remover/
-http://localhost:1313/webp/
-http://localhost:1313/webp/to-jpg/
+https://thaiapp.github.io/image/exif/
+https://thaiapp.github.io/image/exif-remover/
+https://thaiapp.github.io/webp/
+https://thaiapp.github.io/webp/to-jpg/
 
 15 November 2026
+http://localhost:1313/webp/to-png/
+http://localhost:1313/webp/from-jpg/
+http://localhost:1313/recorder/
 
+16 November 2026
