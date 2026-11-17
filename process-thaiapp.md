@@ -64,7 +64,7 @@ https://thaiapp.github.io/emoji/google/
 https://thaiapp.github.io/emoji/list/
 https://thaiapp.github.io/emoji/cheat-sheet/
 https://thaiapp.github.io/emoticon/
-https://thaiapp.github.io/emoticon/lenny-face/ -- belum submit
+https://thaiapp.github.io/emoticon/lenny-face/ 
 https://thaiapp.github.io/emoticon/shrug/
 https://thaiapp.github.io/javascript-validator/
 
@@ -77,7 +77,7 @@ https://thaiapp.github.io/facebook/favorite-friends/
 https://thaiapp.github.io/facebook/id/
 https://thaiapp.github.io/file/
 https://thaiapp.github.io/file/zip/
-https://thaiapp.github.io/file/unzip/
+https://thaiapp.github.io/file/unzip/ -- belum submit
 
 4 November 2026
 https://thaiapp.github.io/file/rar/
@@ -155,8 +155,13 @@ https://thaiapp.github.io/webp/
 https://thaiapp.github.io/webp/to-jpg/
 
 15 November 2026
-http://localhost:1313/webp/to-png/
-http://localhost:1313/webp/from-jpg/
-http://localhost:1313/recorder/
+https://thaiapp.github.io/webp/to-png/
+https://thaiapp.github.io/webp/from-jpg/
+https://thaiapp.github.io/recorder/
 
-16 November 2026
+17 November 2026
+http://localhost:1313/recorder/voice/
+http://localhost:1313/recorder/screen/
+http://localhost:1313/recorder/webcam/
+
+18 November 2026
