@@ -77,7 +77,7 @@ https://thaiapp.github.io/facebook/favorite-friends/
 https://thaiapp.github.io/facebook/id/
 https://thaiapp.github.io/file/
 https://thaiapp.github.io/file/zip/
-https://thaiapp.github.io/file/unzip/ -- belum submit
+https://thaiapp.github.io/file/unzip/ 
 
 4 November 2026
 https://thaiapp.github.io/file/rar/
@@ -89,7 +89,7 @@ https://thaiapp.github.io/hash/
 https://thaiapp.github.io/hash/md5/
 
 5 November 2026
-https://thaiapp.github.io/hash/sha1/
+https://thaiapp.github.io/hash/sha1/ -- belum submit
 https://thaiapp.github.io/hash/sha256/
 https://thaiapp.github.io/hash/sha512/
 https://thaiapp.github.io/hash/crc32/
@@ -160,8 +160,14 @@ https://thaiapp.github.io/webp/from-jpg/
 https://thaiapp.github.io/recorder/
 
 17 November 2026
-http://localhost:1313/recorder/voice/
-http://localhost:1313/recorder/screen/
-http://localhost:1313/recorder/webcam/
+https://thaiapp.github.io/recorder/voice/
+https://thaiapp.github.io/recorder/screen/
+https://thaiapp.github.io/recorder/webcam/
 
 18 November 2026
+http://localhost:1313/test/
+http://localhost:1313/test/keyboard/
+http://localhost:1313/test/mouse/
+http://localhost:1313/test/mic/
+
+19 November 2026
