@@ -89,7 +89,7 @@ https://thaiapp.github.io/hash/
 https://thaiapp.github.io/hash/md5/
 
 5 November 2026
-https://thaiapp.github.io/hash/sha1/ -- belum submit
+https://thaiapp.github.io/hash/sha1/ 
 https://thaiapp.github.io/hash/sha256/
 https://thaiapp.github.io/hash/sha512/
 https://thaiapp.github.io/hash/crc32/
@@ -103,7 +103,7 @@ https://thaiapp.github.io/pdf/split/
 https://thaiapp.github.io/pdf/compress/
 
 7 November 2026
-https://thaiapp.github.io/pdf/to-jpg/
+https://thaiapp.github.io/pdf/to-jpg/ -- belum submit
 https://thaiapp.github.io/pdf/from-jpg/
 https://thaiapp.github.io/pdf/organize/
 https://thaiapp.github.io/pdf/rotate/
@@ -165,9 +165,12 @@ https://thaiapp.github.io/recorder/screen/
 https://thaiapp.github.io/recorder/webcam/
 
 18 November 2026
-http://localhost:1313/test/
-http://localhost:1313/test/keyboard/
-http://localhost:1313/test/mouse/
-http://localhost:1313/test/mic/
+https://thaiapp.github.io/test/
+https://thaiapp.github.io/test/keyboard/
+https://thaiapp.github.io/test/mouse/
+https://thaiapp.github.io/test/mic/
 
 19 November 2026
+http://localhost:1313/test/webcam/
+http://localhost:1313/test/speaker/
+http://localhost:1313/test/screen/
