@@ -103,7 +103,7 @@ https://thaiapp.github.io/pdf/split/
 https://thaiapp.github.io/pdf/compress/
 
 7 November 2026
-https://thaiapp.github.io/pdf/to-jpg/ -- belum submit
+https://thaiapp.github.io/pdf/to-jpg/ 
 https://thaiapp.github.io/pdf/from-jpg/
 https://thaiapp.github.io/pdf/organize/
 https://thaiapp.github.io/pdf/rotate/
@@ -113,10 +113,10 @@ https://thaiapp.github.io/pdf/unlock/
 https://thaiapp.github.io/pdf/page-numbers/
 https://thaiapp.github.io/pdf/watermark/
 https://thaiapp.github.io/pdf/deskew/
-https://thaiapp.github.io/pdf/grayscale/
+https://thaiapp.github.io/pdf/grayscale/ 
 
 9 November 2026
-https://thaiapp.github.io/pdf/pages-per-sheet/
+https://thaiapp.github.io/pdf/pages-per-sheet/ -- belum submit
 https://thaiapp.github.io/pdf/page-size/
 https://thaiapp.github.io/pdf/id-card/
 https://thaiapp.github.io/photo/collage/
@@ -171,6 +171,14 @@ https://thaiapp.github.io/test/mouse/
 https://thaiapp.github.io/test/mic/
 
 19 November 2026
-http://localhost:1313/test/webcam/
-http://localhost:1313/test/speaker/
-http://localhost:1313/test/screen/
+https://thaiapp.github.io/test/webcam/
+https://thaiapp.github.io/test/speaker/
+https://thaiapp.github.io/test/screen/
+
+20 November 2026
+http://localhost:1313/audio/
+http://localhost:1313/audio/convert/
+http://localhost:1313/audio/convert/to-mp3/
+http://localhost:1313/audio/convert/wav-to-mp3/
+
+21 November 2026
