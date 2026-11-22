@@ -129,7 +129,7 @@ https://thaiapp.github.io/id-photo/print/
 https://thaiapp.github.io/image/
 
 11 November 2026
-https://thaiapp.github.io/image/crop/ -- belum submit
+https://thaiapp.github.io/image/crop/ 
 https://thaiapp.github.io/image/crop-circle/
 https://thaiapp.github.io/image/rotate/
 https://thaiapp.github.io/image/straighten/
@@ -143,7 +143,7 @@ https://thaiapp.github.io/image/rename/
 https://thaiapp.github.io/image/blur/
 
 13 November 2026
-https://thaiapp.github.io/image/pixelate/
+https://thaiapp.github.io/image/pixelate/ -- belum submit
 https://thaiapp.github.io/image/watermark/
 https://thaiapp.github.io/image/add-date/
 https://thaiapp.github.io/image/split/
@@ -182,9 +182,17 @@ https://thaiapp.github.io/audio/convert/to-mp3/
 https://thaiapp.github.io/audio/convert/wav-to-mp3/
 
 21 November 2026
-http://localhost:1313/audio/convert/mp4-to-mp3/
-http://localhost:1313/audio/convert/m4a-to-mp3/
-http://localhost:1313/audio/convert/mp3-to-wav/
-http://localhost:1313/audio/trim/
+https://thaiapp.github.io/audio/convert/mp4-to-mp3/
+https://thaiapp.github.io/audio/convert/m4a-to-mp3/
+https://thaiapp.github.io/audio/convert/mp3-to-wav/
+https://thaiapp.github.io/audio/trim/
 
 22 November 2026
+http://localhost:1313/audio/convert/flac-to-mp3/
+http://localhost:1313/audio/joiner/
+http://localhost:1313/video/trim/
+http://localhost:1313/video/split/
+http://localhost:1313/video/compress/
+
+23 November 2026
+
