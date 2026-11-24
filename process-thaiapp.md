@@ -144,7 +144,7 @@ https://thaiapp.github.io/image/blur/
 
 13 November 2026
 https://thaiapp.github.io/image/pixelate/ 
-https://thaiapp.github.io/image/watermark/ -- belum submit
+https://thaiapp.github.io/image/watermark/ 
 https://thaiapp.github.io/image/add-date/
 https://thaiapp.github.io/image/split/
 
@@ -155,7 +155,7 @@ https://thaiapp.github.io/webp/
 https://thaiapp.github.io/webp/to-jpg/
 
 15 November 2026
-https://thaiapp.github.io/webp/to-png/
+https://thaiapp.github.io/webp/to-png/ -- belum submit
 https://thaiapp.github.io/webp/from-jpg/
 https://thaiapp.github.io/recorder/
 
@@ -195,12 +195,17 @@ https://thaiapp.github.io/video/split/
 https://thaiapp.github.io/video/compress/
 
 23 November 2026
-http://localhost:1313/video/merge/
-http://localhost:1313/generator/
-http://localhost:1313/video/to-gif/
-http://localhost:1313/generator/qr-code/wifi/
-http://localhost:1313/generator/qr-code/facebook-app/
-http://localhost:1313/generator/qr-code/youtube-app/
+https://thaiapp.github.io/video/merge/
+https://thaiapp.github.io/generator/
+https://thaiapp.github.io/video/to-gif/
+https://thaiapp.github.io/generator/qr-code/wifi/
+https://thaiapp.github.io/generator/qr-code/facebook-app/
+https://thaiapp.github.io/generator/qr-code/youtube-app/
 
 24 November 2026
+http://localhost:1313/generator/qr-code/
+http://localhost:1313/generator/qr-code/app-download/
+http://localhost:1313/mysql-syntax-check/
+
+25 November 2026
 
