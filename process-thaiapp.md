@@ -155,7 +155,7 @@ https://thaiapp.github.io/webp/
 https://thaiapp.github.io/webp/to-jpg/
 
 15 November 2026
-https://thaiapp.github.io/webp/to-png/ -- belum submit
+https://thaiapp.github.io/webp/to-png/ 
 https://thaiapp.github.io/webp/from-jpg/
 https://thaiapp.github.io/recorder/
 
@@ -165,7 +165,7 @@ https://thaiapp.github.io/recorder/screen/
 https://thaiapp.github.io/recorder/webcam/
 
 18 November 2026
-https://thaiapp.github.io/test/
+https://thaiapp.github.io/test/ -- belum submit
 https://thaiapp.github.io/test/keyboard/
 https://thaiapp.github.io/test/mouse/
 https://thaiapp.github.io/test/mic/
@@ -203,9 +203,17 @@ https://thaiapp.github.io/generator/qr-code/facebook-app/
 https://thaiapp.github.io/generator/qr-code/youtube-app/
 
 24 November 2026
-http://localhost:1313/generator/qr-code/
-http://localhost:1313/generator/qr-code/app-download/
-http://localhost:1313/mysql-syntax-check/
+https://thaiapp.github.io/generator/qr-code/
+https://thaiapp.github.io/generator/qr-code/app-download/
+https://thaiapp.github.io/mysql-syntax-check/
 
 25 November 2026
+http://localhost:1313/generator/qr-code/twitter-app/
+http://localhost:1313/email-html/
+http://localhost:1313/generator/qr-code/instagram-app/
+http://localhost:1313/symbol/mashup/
+http://localhost:1313/ruler/
+http://localhost:1313/facebook-symbols/
+
+26 November 2026
 
