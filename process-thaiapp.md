@@ -165,7 +165,7 @@ https://thaiapp.github.io/recorder/screen/
 https://thaiapp.github.io/recorder/webcam/
 
 18 November 2026
-https://thaiapp.github.io/test/ -- belum submit
+https://thaiapp.github.io/test/ 
 https://thaiapp.github.io/test/keyboard/
 https://thaiapp.github.io/test/mouse/
 https://thaiapp.github.io/test/mic/
@@ -176,7 +176,7 @@ https://thaiapp.github.io/test/speaker/
 https://thaiapp.github.io/test/screen/
 
 20 November 2026
-https://thaiapp.github.io/audio/
+https://thaiapp.github.io/audio/ -- belum submit
 https://thaiapp.github.io/audio/convert/
 https://thaiapp.github.io/audio/convert/to-mp3/
 https://thaiapp.github.io/audio/convert/wav-to-mp3/
@@ -208,12 +208,19 @@ https://thaiapp.github.io/generator/qr-code/app-download/
 https://thaiapp.github.io/mysql-syntax-check/
 
 25 November 2026
-http://localhost:1313/generator/qr-code/twitter-app/
-http://localhost:1313/email-html/
-http://localhost:1313/generator/qr-code/instagram-app/
-http://localhost:1313/symbol/mashup/
-http://localhost:1313/ruler/
-http://localhost:1313/facebook-symbols/
+https://thaiapp.github.io/generator/qr-code/twitter-app/
+https://thaiapp.github.io/email-html/
+https://thaiapp.github.io/generator/qr-code/instagram-app/
+https://thaiapp.github.io/symbol/mashup/
+https://thaiapp.github.io/ruler/
+https://thaiapp.github.io/facebook-symbols/
+https://thaiapp.github.io/transit-maps/
 
 26 November 2026
+http://localhost:1313/video/
+http://localhost:1313/symbol/
+http://localhost:1313/php-syntax-check/
+http://localhost:1313/time-now/
+http://localhost:1313/time-now/all/
 
+27 November 2026
