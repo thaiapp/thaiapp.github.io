@@ -176,7 +176,7 @@ https://thaiapp.github.io/test/speaker/
 https://thaiapp.github.io/test/screen/
 
 20 November 2026
-https://thaiapp.github.io/audio/ -- belum submit
+https://thaiapp.github.io/audio/ 
 https://thaiapp.github.io/audio/convert/
 https://thaiapp.github.io/audio/convert/to-mp3/
 https://thaiapp.github.io/audio/convert/wav-to-mp3/
@@ -188,7 +188,7 @@ https://thaiapp.github.io/audio/convert/mp3-to-wav/
 https://thaiapp.github.io/audio/trim/
 
 22 November 2026
-https://thaiapp.github.io/audio/convert/flac-to-mp3/
+https://thaiapp.github.io/audio/convert/flac-to-mp3/ -- belum submit
 https://thaiapp.github.io/audio/joiner/
 https://thaiapp.github.io/video/trim/
 https://thaiapp.github.io/video/split/
@@ -217,10 +217,16 @@ https://thaiapp.github.io/facebook-symbols/
 https://thaiapp.github.io/transit-maps/
 
 26 November 2026
-http://localhost:1313/video/
-http://localhost:1313/symbol/
-http://localhost:1313/php-syntax-check/
-http://localhost:1313/time-now/
-http://localhost:1313/time-now/all/
+https://thaiapp.github.io/video/
+https://thaiapp.github.io/symbol/
+https://thaiapp.github.io/php-syntax-check/
+https://thaiapp.github.io/time-now/
+https://thaiapp.github.io/time-now/all/
 
 27 November 2026
+http://localhost:1313/regex-tester/
+http://localhost:1313/text-diff/
+http://localhost:1313/minify/yui-compressor/
+http://localhost:1313/minify/closure-compiler/
+
+28 November 2026
