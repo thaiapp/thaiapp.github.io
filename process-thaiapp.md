@@ -188,7 +188,7 @@ https://thaiapp.github.io/audio/convert/mp3-to-wav/
 https://thaiapp.github.io/audio/trim/
 
 22 November 2026
-https://thaiapp.github.io/audio/convert/flac-to-mp3/ -- belum submit
+https://thaiapp.github.io/audio/convert/flac-to-mp3/ 
 https://thaiapp.github.io/audio/joiner/
 https://thaiapp.github.io/video/trim/
 https://thaiapp.github.io/video/split/
@@ -200,8 +200,8 @@ https://thaiapp.github.io/generator/
 https://thaiapp.github.io/video/to-gif/
 https://thaiapp.github.io/generator/qr-code/wifi/
 https://thaiapp.github.io/generator/qr-code/facebook-app/
-https://thaiapp.github.io/generator/qr-code/youtube-app/
-
+https://thaiapp.github.io/generator/qr-code/youtube-app/  -- belum submit
+ 
 24 November 2026
 https://thaiapp.github.io/generator/qr-code/
 https://thaiapp.github.io/generator/qr-code/app-download/
@@ -224,9 +224,15 @@ https://thaiapp.github.io/time-now/
 https://thaiapp.github.io/time-now/all/
 
 27 November 2026
-http://localhost:1313/regex-tester/
-http://localhost:1313/text-diff/
-http://localhost:1313/minify/yui-compressor/
-http://localhost:1313/minify/closure-compiler/
+https://thaiapp.github.io/regex-tester/
+https://thaiapp.github.io/text-diff/
+https://thaiapp.github.io/minify/yui-compressor/
+https://thaiapp.github.io/minify/closure-compiler/
 
 28 November 2026
+http://localhost:1313/minify/
+http://localhost:1313/json/validator/
+http://localhost:1313/formatter/
+http://localhost:1313/formatter/html/
+
+29 November 2026
